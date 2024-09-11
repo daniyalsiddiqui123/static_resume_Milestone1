@@ -1,2 +1,2 @@
-# static_resume_Milestone1
-Static Resume Milestone-1
+# static_resume
+Static Resume 
