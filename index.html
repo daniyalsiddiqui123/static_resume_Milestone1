@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Builder</title>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1 class="resume">Resume Builder</h1>
+    <form id="resume-form">
+      <fieldset>
+        <legend class="details">Personal Details</legend>
+        <p>
+          First Name:
+          <input type="text" id="firstname" name="firstname" size="15" maxlength="30" required />
+        </p>
+        <p>
+          Last Name:
+          <input type="text" id="lastname" name="lastname" size="15" maxlength="30" required />
+        </p>
+        <p>
+          E-Mail:
+          <input type="email" id="email" name="email" required />
+        </p>
+        <p>
+          Number:
+          <input type="number" id="phone" name="phone" required />
+        </p>
+        <p>
+          Profile Picture:
+          <input type="file" id="profile-picture" name="profile-picture" required />
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <legend class="education">Education</legend>
+        <p>
+          <textarea id="education" name="comments" rows="4" cols="30" placeholder="Enter your education details"></textarea>
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <legend class="skills">Skills</legend>
+        <p>
+          <input type="text" id="skills" name="skills" placeholder="Enter your skills" required />
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <legend class="work">Work Experience</legend>
+        <p>
+          <input type="checkbox" id="experience1" name="experience" value="2 Years" /> 2 Years
+          <br />
+          <input type="checkbox" id="experience2" name="experience" value="5 Years" /> 5 Years
+          <br />
+          <input type="checkbox" id="experience3" name="experience" value="7 Years" /> 7 Years
+          <br />
+          <input type="checkbox" id="experience4" name="experience" value="10+ Years" /> 10+ Years
+        </p>
+      </fieldset>
+
+      <p>
+        <input type="submit" value="Submit" />
+      </p>
+    </form>
+
+    <!-- Card container to display resume information -->
+    <div id="resume-card" class="resume-card"></div>
+  </body>
+</html>
