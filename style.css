@@ -1,0 +1,33 @@
+.resume {
+    background-color: red;
+    color: black;
+    text-align: center;
+}
+.details {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    font-size: large;
+}
+.education {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    font-size: large;
+}
+.skills {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    font-size: large;
+}
+.work {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    font-size: large;
+}
